@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SPATIALITY | GIS, Web & AI</title>
+  <style>
+    body {
+      margin: 0;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap" rel="stylesheet">
+  <script type="importmap">
+			{
+				"imports": {
+					"three": "https://cdn.jsdelivr.net/npm/three@0.161/build/three.module.js",
+          "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161/examples/jsm/"
+        }
+			}
+		</script>
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+  <script type="module" src="index.js"></script>
+  <!-- Overlay -->
+  <div id="overlay">
+    <div class="text-box">
+      <h1 class="title">SPATIALITY</h1>
+      <span class="subtitle">GIS, Web & AI</span>
+      <div class="contact">
+        <i data-feather="mail"></i>
+        <div class="email">kamiel</div>
+      </div>
+    </div>
+</body>
+
+<style>
+  #overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+  }
+
+  .text-box {
+    margin: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .title {
+    font-size: 48px;
+    font-family: Quantico, sans-serif;
+    font-weight: bold;
+    margin-bottom: -0.8rem;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .contact {
+    margin-top: 1rem;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .email {
+    cursor: pointer;
+  }
+
+  .email:after {
+    content: '@spatiality.nl';
+  }
+</style>
+<script>
+  feather.replace();
+
+  const email = document.getElementsByClassName('email')[0];
+  email.addEventListener('click', function () {
+    window.location.href = 'mailto:' + email.textContent + '@spatiality.nl';
+  });
+</script>
+
+</html>
