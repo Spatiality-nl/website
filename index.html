@@ -88,6 +88,12 @@
             <span class="skill-tag">VueJS</span>
             <span class="skill-tag">Svelte</span>
           </div>
+          <p class="mt-4" data-i18n="skills-contact"></p>
+          <button id="skills-email" class="custom-button mt-2">
+            <i data-feather="mail"></i>
+            <span id="skills-email-text">kamiel</span>
+            <span data-i18n="contact-button"></span>
+          </button>
         </div>
       </div>
     </div>
@@ -162,8 +168,13 @@
   // hide email
   const emailText = document.getElementById('email-text');
   const eaddr = emailText.innerText + '@spatiality.nl';
-  email.addEventListener('click', function () {
-    window.location.href = 'mailto:' + eaddr;
+  const skillsEmailText = document.getElementById('skills-email-text');
+  const skillsEmail = document.getElementById('skills-email');
+  
+  [email, skillsEmail].forEach(el => {
+    el.addEventListener('click', function () {
+      window.location.href = 'mailto:' + eaddr;
+    });
   });
   // jquery i18n
   // get locale from lang query parameter
