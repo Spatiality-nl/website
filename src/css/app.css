@@ -164,7 +164,7 @@ footer .footer-info {
 }
 
 .custom-button {
-  background: linear-gradient(45deg, #2d2d2d, #1a1a1a);
+  background: linear-gradient(45deg, #1b3a53, #442f26);
   border: 1px solid #3d3d3d;
   color: white;
   padding: 0.7rem 1.2rem;
@@ -177,7 +177,7 @@ footer .footer-info {
 }
 
 .custom-button:hover {
-  background: linear-gradient(45deg, #3d3d3d, #2a2a2a);
+  background: linear-gradient(45deg, #284b68, #50362b);
   border-color: #4d4d4d;
 }
 
