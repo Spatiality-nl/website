@@ -26,7 +26,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
-    <div class="container-fluid">
+    <div class="container-fluid max-page-width">
       <a class="navbar-brand" href="/">
         <img src="/resources/img/logo.png" height="100" />
       </a>
@@ -39,8 +39,9 @@
       </div>
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="localeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <i data-feather="globe"></i>&nbsp; Language
+          <a class="nav-link dropdown-toggle flex-center-gap" href="#" id="localeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i data-feather="globe"></i>
+            <span class="sm-block ">Language</span>
           </a>
           <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="localeDropdown">
             <li><a class="dropdown-item" href="?lang=en" data-i18n="locale-en"></a></li>
@@ -52,26 +53,23 @@
   </nav>
 
   <main id="main">
-    <div id="threejs-container">
+    <div id="threejs-container" class="max-page-width">
       <div class="overlay"></div>
       <div class="home-title">
         <h1 class="outfit-bold" data-i18n="catchphrase"></h1>
       </div>
     </div>
-    <div id="whoami" class="content-block">
-      <div class="content">
-        <div class="left">
+    <div id="whoami" class="content-block max-page-width">
+      <div class="content lg-flex-nowrap">
+        <div>
           <img class="image-rounded" src="/resources/img/kamielverhelst.jpg" />
         </div> 
-        <div class="right-2/3">
+        <div>
           <h2 data-i18n="whoami-title"></h2>
           <p data-i18n="whoami-body"></p>
         </div>
       </div> 
-
     </div>
-    
-
   </main>
 
   <script type="module" src="index.js"></script>
@@ -89,7 +87,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a href="#" id="email" class="nav-link px-2 text-muted">
+        <a href="#" id="email" class="nav-link px-2 text-muted flex-center-gap">
           <i data-feather="mail" width="30" height="30"></i>
           <span id="email-text">kamiel</span>
         </a>
