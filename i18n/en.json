@@ -6,5 +6,7 @@
     "menu-whoami": "Who am I?",
 	"catchphrase": "Software development with a focus on GIS and Web development",
     "whoami-title": "Who am I?",
-    "whoami-body": "I am a software developer with a passion for GIS and Web development. I specialize in developing web applications and processing geographic data. I am based in the Netherlands and work as a freelancer for clients around the world."
+    "whoami-body": "I am a software developer with a passion for GIS and Web development. I specialize in developing web applications and processing geographic data. I am based in the Netherlands and work as a freelancer for clients around the world.",
+    "skills-title": "How can I help?",
+    "skills-body": "I have expertise in the following technologies:"
 }

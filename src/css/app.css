@@ -148,6 +148,21 @@ footer .footer-info {
   background-color: #222222;
 }
 
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.skill-tag {
+  background: linear-gradient(45deg, #2d2d2d, #1a1a1a);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid #3d3d3d;
+  color: white;
+  font-size: 1.1rem;
+}
 
 /* Responsiveness */
 .sm-block {
