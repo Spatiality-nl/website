@@ -31,6 +31,10 @@ body {
   position: relative;
 }
 
+#threejs-container {
+  height: 100vh;
+}
+
 .home-title {
   position: absolute; 
   top: 0;
