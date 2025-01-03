@@ -12,6 +12,10 @@ body {
   font-style: normal;
 }
 
+p {
+  font-size: 1.3rem;
+}
+
 .outfit-bold {
   font-weight: 600;
 }
@@ -27,8 +31,15 @@ body {
   padding: 0
 }
 
+.max-page-width {
+  max-width: 1700px;
+}
+
 #main {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #threejs-container {
@@ -46,7 +57,7 @@ body {
 }
 
 .home-title {
-  position: absolute; 
+  position: absolute;
   top: 0;
   width: 67%;
   height: 400px;
@@ -67,15 +78,19 @@ body {
   width: 100%;
   padding: 2rem;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   min-height: 400px;
   padding: 2rem;
+  gap: 3rem;
   border-radius: 1.5rem;
   background: linear-gradient(to bottom right, rgb(45, 45, 45), rgb(21, 21, 21)) no-repeat;
-  display: grid;
-  grid-template-columns: 1fr 2fr; 
 }
 
 .content .left {
@@ -87,13 +102,13 @@ body {
 
 img.image-rounded {
   border-radius: 2rem;
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
 
-#email {
+.flex-center-gap {
   display: flex;
   align-items: center;
   gap: 0.3rem;
@@ -117,7 +132,8 @@ footer .footer-info {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  display: none; /* Hidden by default */
+  display: none;
+  /* Hidden by default */
   background-color: #363636;
   color: white;
   border: none;
@@ -129,4 +145,29 @@ footer .footer-info {
 
 .back-to-top:hover {
   background-color: #222222;
+}
+
+
+/* Responsiveness */
+.sm-block {
+  display: none;
+}
+
+.lg-flex-nowrap {
+  flex-wrap: wrap;
+}
+
+/* sm */
+@media (min-width: 576px) {
+  .sm-block {
+    display: block;
+  }
+
+}
+
+/* lg */
+@media (min-width: 992px) {
+  .lg-flex-nowrap {
+    flex-wrap: nowrap;
+  }
 }
