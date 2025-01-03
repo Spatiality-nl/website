@@ -33,12 +33,22 @@ body {
 
 #threejs-container {
   height: 100vh;
+  position: relative;
+}
+
+#threejs-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, black, transparent);
 }
 
 .home-title {
   position: absolute; 
   top: 0;
-  width: 100%;
+  width: 67%;
   height: 400px;
   padding: 8rem 2rem;
   color: white;
@@ -53,47 +63,54 @@ body {
   display: flex;
 }
 
-.text-box {
-  margin: auto;
-  text-align: center;
+.content-block {
+  width: 100%;
+  padding: 2rem;
   color: white;
 }
 
-.title {
-  font-size: 48px;
-  font-family: Outfit, sans-serif;
-  font-weight: bold;
-  margin-bottom: -0.8rem;
+.content {
+  min-height: 400px;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  background: linear-gradient(to bottom right, rgb(45, 45, 45), rgb(21, 21, 21)) no-repeat;
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
 }
 
-.subtitle {
-  font-size: 24px;
-  font-family: 'Segoe UI', sans-serif;
+.content .left {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.contact {
-  margin-top: 1rem;
-  font-size: 24px;
+img.image-rounded {
+  border-radius: 2rem;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+
+#email {
   display: flex;
   align-items: center;
   gap: 0.3rem;
 }
 
-.kvk {
-  font-size: 24px;
-}
-
-.email {
-  cursor: pointer;
-}
-
-.email:after {
+#email-text:after {
   content: '@spatiality.nl';
 }
 
 footer {
   border-top: 1px solid rgb(110, 110, 110);
   background-color: black;
+}
+
+footer .footer-info {
+  padding: 1rem;
+  color: rgb(175, 175, 175);
 }
 
 .back-to-top {

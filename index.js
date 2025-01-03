@@ -10,8 +10,8 @@ renderer.setSize(innerWidth, innerHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
 document.getElementById('threejs-container').appendChild(renderer.domElement);
 
-const orbitCtrl = new OrbitControls(camera, renderer.domElement);
-orbitCtrl.enableDamping = true;
+// const orbitCtrl = new OrbitControls(camera, renderer.domElement);
+// orbitCtrl.enableDamping = true;
 
 const raycaster = new THREE.Raycaster();
 const pointerPos = new THREE.Vector2();
@@ -130,7 +130,7 @@ function animate() {
   globeGroup.rotation.y += 0.002;
   // handleRaycast();
   requestAnimationFrame(animate);
-  orbitCtrl.update();
+  // orbitCtrl.update();
 };
 animate();
 
@@ -145,6 +145,9 @@ window.addEventListener('resize', function () {
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
   renderer.setSize(window.innerWidth, window.innerHeight);
+  if (window.innerWidth < 1000) {
+    globeGroup.position.x = 0.5;
+  }
 }, false);
 
 // https://discourse.threejs.org/t/earth-point-vertex-elevation/62689
