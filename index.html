@@ -78,30 +78,30 @@
         <h2 data-i18n="timeline-title">Project Timeline</h2>
         <div class="timeline">
           <div class="timeline-item">
-            <div class="timeline-date">2024-01 - Present</div>
             <div class="timeline-content">
               <h3>3D Visualization Platform</h3>
+              <div class="timeline-date">2024-01 - Present</div>
               <p>Developed an interactive 3D platform for visualizing geospatial data using CesiumJS and Vue.js</p>
             </div>
           </div>
           <div class="timeline-item">
-            <div class="timeline-date">2023-06 - 2023-12</div>
             <div class="timeline-content">
               <h3>Spatial Data Processing Pipeline</h3>
+              <div class="timeline-date">2023-06 - 2023-12</div>
               <p>Created automated workflows for processing large-scale satellite imagery using Python and GDAL</p>
             </div>
           </div>
           <div class="timeline-item">
-            <div class="timeline-date">2023-01 - 2023-05</div>
             <div class="timeline-content">
               <h3>Custom QGIS Plugin Development</h3>
+              <div class="timeline-date">2023-01 - 2023-05</div>
               <p>Developed specialized GIS tools for municipal planning departments</p>
             </div>
           </div>
           <div class="timeline-item">
-            <div class="timeline-date">2022-08 - 2022-12</div>
             <div class="timeline-content">
               <h3>Real-time Asset Tracking System</h3>
+              <div class="timeline-date">2022-08 - 2022-12</div>
               <p>Built a web-based system for tracking and managing field assets using Svelte and PostGIS</p>
             </div>
           </div>
@@ -214,29 +214,23 @@
   background-color: #333;
   top: 0;
   bottom: 0;
-  left: 50%;
-  margin-left: -1px;
+  left: 0;
+  margin-left: 9px;
 }
 
 .timeline-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 40px;
   position: relative;
+  padding-left: 40px;
   margin: 40px 0;
 }
 
 .timeline-date {
-  width: 200px;
-  text-align: right;
-  padding-right: 25px;
-  font-weight: bold;
+  font-size: 0.9em;
+  color: #666;
+  margin: 5px 0 10px 0;
 }
 
 .timeline-content {
-  width: calc(100% - 240px);
-  padding-left: 25px;
   background: #f8f9fa;
   border-radius: 6px;
   padding: 20px;
@@ -250,9 +244,8 @@
   height: 20px;
   background: #333;
   border-radius: 50%;
-  left: -35px;
-  top: 50%;
-  transform: translateY(-50%);
+  left: -31px;
+  top: 24px;
 }
 
 .timeline-content h3 {
@@ -266,30 +259,16 @@
 }
 
 @media screen and (max-width: 768px) {
-  .timeline::after {
-    left: 31px;
-  }
-  
   .timeline-item {
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 70px;
-  }
-  
-  .timeline-date {
-    width: 100%;
-    text-align: left;
-    padding-right: 0;
-    padding-bottom: 10px;
-  }
-  
-  .timeline-content {
-    width: 100%;
-    padding-left: 0;
+    padding-left: 30px;
   }
   
   .timeline-content::before {
-    left: -39px;
+    left: -21px;
+  }
+  
+  .timeline::after {
+    margin-left: 9px;
   }
 }
 </style>
