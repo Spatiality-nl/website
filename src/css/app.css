@@ -31,6 +31,14 @@ p {
   padding: 0
 }
 
+.navbar-nav .dropdown-menu {
+  position: absolute !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
 .max-page-width {
   max-width: 1700px;
 }
@@ -60,18 +68,18 @@ p {
 .home-title {
   position: absolute;
   top: 0;
-  width: 67%;
+  width: 100%;
   height: 400px;
   padding: 8rem 2rem;
   color: white;
 }
 
 .dictionary-entry {
-  margin-top: 2rem;
-  padding: 1.5rem;
+  width: 100%;
+  margin-top: 8rem;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 0.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1px);
 }
 
 .dictionary-entry h2 {
@@ -330,5 +338,11 @@ footer .footer-info {
 @media (min-width: 992px) {
   .lg-flex-nowrap {
     flex-wrap: nowrap;
+  }
+  .home-title {
+    width: 67%;
+  }
+  .dictionary-entry {
+    width: 67%;
   }
 }

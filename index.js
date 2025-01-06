@@ -141,7 +141,13 @@ window.addEventListener('mousemove', (evt) => {
   );
 });
 
-window.addEventListener('resize', function () {
+let previousWidth = window.innerWidth;
+
+window.addEventListener('resize', function (e) {
+  // only continue if width is changed
+  if (previousWidth === e.target.innerWidth) return;
+  previousWidth = e.target.innerWidth;
+
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
   renderer.setSize(window.innerWidth, window.innerHeight);
