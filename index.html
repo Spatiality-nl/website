@@ -36,6 +36,9 @@
             <a class="nav-link active" aria-current="page" data-i18n="menu-whoami" href="#whoami"></a>
           </li>
           <li class="nav-item">
+            <a class="nav-link active" aria-current="page" data-i18n="menu-timeline" href="#timeline"></a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link active" aria-current="page" data-i18n="menu-skills" href="#skills"></a>
           </li>
         </ul>
@@ -74,8 +77,9 @@
       </div> 
     </div>
     <div id="timeline" class="content-block max-page-width">
-      <div class="content">
+      <div class="content flex-col">
         <h2 data-i18n="timeline-title">Project Timeline</h2>
+        <p data-i18n="timeline-body"></p>
         <div class="timeline">
           <div class="timeline-item">
             <div class="timeline-content">
@@ -142,6 +146,9 @@
         <a class="nav-link active text-muted" aria-current="page" data-i18n="menu-whoami" href="#whoami"></a>
       </li>
       <li class="nav-item">
+        <a class="nav-link active text-muted" aria-current="page" data-i18n="menu-timeline" href="#timeline"></a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link active text-muted" aria-current="page" data-i18n="menu-skills" href="#skills"></a>
       </li>
     </ul>
@@ -199,79 +206,6 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
-<style>
-.timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.timeline::after {
-  content: '';
-  position: absolute;
-  width: 2px;
-  background-color: #333;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  margin-left: 9px;
-}
-
-.timeline-item {
-  position: relative;
-  padding-left: 40px;
-  margin: 40px 0;
-}
-
-.timeline-date {
-  font-size: 0.9em;
-  color: #666;
-  margin: 5px 0 10px 0;
-}
-
-.timeline-content {
-  background: #f8f9fa;
-  border-radius: 6px;
-  padding: 20px;
-  position: relative;
-}
-
-.timeline-content::before {
-  content: '';
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background: #333;
-  border-radius: 50%;
-  left: -31px;
-  top: 24px;
-}
-
-.timeline-content h3 {
-  margin: 0 0 10px 0;
-  color: #333;
-}
-
-.timeline-content p {
-  margin: 0;
-  color: #666;
-}
-
-@media screen and (max-width: 768px) {
-  .timeline-item {
-    padding-left: 30px;
-  }
-  
-  .timeline-content::before {
-    left: -21px;
-  }
-  
-  .timeline::after {
-    margin-left: 9px;
-  }
-}
-</style>
 <script>
   // icons
   feather.replace();
