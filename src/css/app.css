@@ -16,6 +16,10 @@ p {
   font-size: 1.3rem;
 }
 
+h1, h2 {
+  font-weight: 900;
+}
+
 .outfit-bold {
   font-weight: 600;
 }
@@ -33,6 +37,10 @@ p {
 
 .navbar-nav .dropdown-menu {
   position: absolute !important;
+}
+
+#lang-mobile {
+  margin-bottom: 0.5rem;
 }
 
 .navbar-toggler {
@@ -181,7 +189,7 @@ img.image-rounded {
   content: '';
   position: absolute;
   width: 2px;
-  background: linear-gradient(45deg, #1b3a53, #442f26);
+  background: linear-gradient(to bottom, #1b3a53, #442f26);
   top: 0;
   bottom: 0;
   left: 0;
