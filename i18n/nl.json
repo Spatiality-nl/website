@@ -26,6 +26,10 @@
     "tl-item3-body": "...",
     "skills-title": "Hoe kan ik helpen?",
     "skills-body": "Ik heb expertise in de volgende technologieën:",
+    "skills-list": "Python, SQL, PostgreSQL/PostGIS, GDAL, QGIS, FME, CesiumJS, VueJS, Svelte",
     "skills-contact": "Bent u geïnteresseerd? Neem dan gerust contact met me op",
+    "tl-item1-skills": "VueJS, Svelte",
+    "tl-item2-skills": "Python, PostgreSQL",
+    "tl-item3-skills": "QGIS, PostGIS",
     "contact-button": "Stuur een e-mail"
 }

@@ -19,6 +19,10 @@
 
     "skills-title": "How can I help?",
     "skills-body": "I have expertise in the following technologies:",
+    "skills-list": "Python, SQL, PostgreSQL/PostGIS, GDAL, QGIS, FME, CesiumJS, VueJS, Svelte",
     "skills-contact": "Interested? Feel free to contact me",
+    "tl-item1-skills": "VueJS, Svelte",
+    "tl-item2-skills": "Python, PostgreSQL",
+    "tl-item3-skills": "QGIS, PostGIS",
     "contact-button": "Send an email"
 }
