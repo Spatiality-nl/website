@@ -218,6 +218,10 @@ img.image-rounded {
 
 .timeline-role {
   color: #1a3a52;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
 }
 
 .timeline-date {
