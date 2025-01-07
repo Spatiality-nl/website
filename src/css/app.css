@@ -255,6 +255,9 @@ img.image-rounded {
   text-decoration: none;
   font-size: 0.9rem;
   transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .timeline-link:hover {

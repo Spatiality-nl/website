@@ -273,6 +273,12 @@
       el.href = $.i18n(key);
     });
 
+    // Add external link icons to timeline links
+    document.querySelectorAll('.timeline-link').forEach(link => {
+      const icon = feather.icons['external-link'].toSvg();
+      link.insertAdjacentHTML('beforeend', icon);
+    });
+
     // Generate timeline skills
     document.querySelectorAll('.timeline-skills').forEach(container => {
       const skillsKey = container.getAttribute('data-skills-key');
