@@ -234,6 +234,12 @@ img.image-rounded {
   position: relative;
 }
 
+.timeline-skills {
+  display: flex;
+  gap: 0.2rem;
+  margin-top: 0.9rem;
+}
+
 .timeline-content::before {
   content: '';
   position: absolute;
