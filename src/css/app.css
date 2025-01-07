@@ -185,6 +185,19 @@ img.image-rounded {
   padding: 20px;
 }
 
+.timeline::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #1b3a53;
+  border-right: 2px solid #1b3a53;
+  transform: rotate(135deg);
+  top: -5px;
+  left: 6px;
+  z-index: 2;
+}
+
 .timeline::after {
   content: '';
   position: absolute;
