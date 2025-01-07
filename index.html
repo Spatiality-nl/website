@@ -114,7 +114,10 @@
               <h3><span data-i18n="tl-item1-title"></span>&nbsp;&bull;&nbsp;<span class="timeline-role" data-i18n="tl-item1-role"></span></h3>
               <div class="timeline-date" data-i18n="tl-item1-date"></div>
               <p data-i18n="tl-item1-body"></p>
-              <div class="timeline-skills" data-skills-key="tl-item1-skills"></div>
+              <div class="timeline-footer">
+                <div class="timeline-skills" data-skills-key="tl-item1-skills"></div>
+                <a class="timeline-link" data-i18n="tl-item1-link-text" data-i18n-href="tl-item1-link" target="_blank" rel="noopener"></a>
+              </div>
             </div>
           </div>
           <div class="timeline-item">
@@ -254,6 +257,12 @@
       span.className = 'skill-tag';
       span.textContent = skill;
       skillsContainer.appendChild(span);
+    });
+
+    // Set href attributes from i18n
+    document.querySelectorAll('[data-i18n-href]').forEach(el => {
+      const key = el.getAttribute('data-i18n-href');
+      el.href = $.i18n(key);
     });
 
     // Generate timeline skills
