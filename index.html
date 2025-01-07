@@ -126,8 +126,8 @@
               <div class="timeline-date" data-i18n="tl-item2-date"></div>
               <p data-i18n="tl-item2-body"></p>
               <div class="timeline-footer">
-                <div class="timeline-skills" data-skills-key="tl-item1-skills"></div>
-                <a class="timeline-link" data-i18n="tl-item1-link-text" data-i18n-href="tl-item1-link" target="_blank" rel="noopener">
+                <div class="timeline-skills" data-skills-key="tl-item2-skills"></div>
+                <a class="timeline-link" data-i18n="tl-item2-link-text" data-i18n-href="tl-item2-link" target="_blank" rel="noopener">
                   <i data-feather="external-link"></i>
                 </a>
               </div>
@@ -139,8 +139,8 @@
               <div class="timeline-date" data-i18n="tl-item3-date"></div>
               <p data-i18n="tl-item3-body"></p>
               <div class="timeline-footer">
-                <div class="timeline-skills" data-skills-key="tl-item1-skills"></div>
-                <a class="timeline-link" data-i18n="tl-item1-link-text" data-i18n-href="tl-item1-link" target="_blank" rel="noopener"></a>
+                <div class="timeline-skills" data-skills-key="tl-item3-skills"></div>
+                <a class="timeline-link" data-i18n="tl-item3-link-text" data-i18n-href="tl-item3-link" target="_blank" rel="noopener"></a>
               </div>
             </div>
           </div>
@@ -275,7 +275,7 @@
 
     // Add external link icons to timeline links
     document.querySelectorAll('.timeline-link').forEach(link => {
-      const icon = feather.icons['external-link'].toSvg();
+      const icon = feather.icons['external-link'].toSvg({ width: 16, height: 16 });
       link.insertAdjacentHTML('beforeend', icon);
     });
 

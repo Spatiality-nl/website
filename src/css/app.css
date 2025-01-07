@@ -13,7 +13,7 @@ body {
 }
 
 p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 h1, h2 {
@@ -238,7 +238,9 @@ img.image-rounded {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 0.9rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .timeline-skills {
@@ -335,7 +337,7 @@ footer .footer-info {
   border-radius: 1rem;
   border: 1px solid #3d3d3d;
   color: white;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 
 .custom-button {
