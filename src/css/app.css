@@ -199,6 +199,7 @@ img.image-rounded {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  padding-right: 0;
 }
 
 .timeline::before {
@@ -210,7 +211,7 @@ img.image-rounded {
   border-right: 4px solid #1b3a53;
   transform: rotate(-45deg);
   top: 0px;
-  left: 3px;
+  left: -7px;
   z-index: 2;
 }
 
@@ -221,13 +222,12 @@ img.image-rounded {
   background: linear-gradient(to bottom, #1b3a53, #442f26);
   top: 0;
   bottom: 0;
-  left: 0;
+  left: -10px;
   margin-left: 9px;
 }
 
 .timeline-item {
   position: relative;
-  padding-left: 20px;
   margin: 40px 0;
 }
 
@@ -272,6 +272,7 @@ img.image-rounded {
 
 .timeline-skills {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.2rem;
 }
 
@@ -302,7 +303,7 @@ img.image-rounded {
   height: 20px;
   background: #333;
   border-radius: 50%;
-  left: -39px;
+  left: -29px;
   top: 24px;
   border: 2px solid white;
   z-index: 999;
@@ -420,6 +421,21 @@ footer .footer-info {
   }
   .content-block {
     padding: 2rem;
+  }
+  .timeline::after {
+    left: 0;
+  }
+  .timeline::before {
+    left: 3px;
+  }
+  .timeline-item {
+    padding-left: 20px;
+  }
+  .timeline {
+    padding: 20px;
+  }
+  .timeline-content::before {
+    left: -39px;
   }
 }
 
