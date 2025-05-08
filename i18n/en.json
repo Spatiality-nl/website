@@ -41,7 +41,7 @@
 
     "skills-title": "How can I help?",
     "skills-body": "I have expertise in the following technologies and methods:",
-    "skills-list": "Python, SQL, PostgreSQL/PostGIS, APIs, ETL, GDAL, QGIS, FME, CesiumJS, VueJS, Svelte, PHP (Laravel), Web design, SEO, Scrum",
+    "skills-list": "Python, SQL, PostgreSQL/PostGIS, APIs, ETL, GDAL, QGIS, FME, CesiumJS, VueJS, Svelte, ReactJS, PHP (Laravel), Web design, SEO, Scrum",
     "skills-contact": "Interested? Feel free to contact me",
     "contact-button": "Send an email"
 }
