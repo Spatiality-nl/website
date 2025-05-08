@@ -40,7 +40,7 @@
 
     "skills-title": "Hoe kan ik helpen?",
     "skills-body": "Ik heb expertise en ervaring in de volgende technologieën en werkwijzen:",
-    "skills-list": "Python, SQL, PostgreSQL/PostGIS, APIs, ETL, GDAL, QGIS, FME, Digital Twins, CesiumJS, VueJS, Svelte, PHP (Laravel), Webdesign, SEO, Scrum",
+    "skills-list": "Python, SQL, PostgreSQL/PostGIS, APIs, ETL, GDAL, QGIS, FME, Digital Twins, CesiumJS, VueJS, Svelte, ReactJS, PHP (Laravel), Webdesign, SEO, Scrum",
     "skills-contact": "Bent u geïnteresseerd? Neem dan gerust contact met me op",
     "contact-button": "Stuur een e-mail"
 }
