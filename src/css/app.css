@@ -387,6 +387,12 @@ footer .footer-info {
   border-color: #4d4d4d;
 }
 
+/* Terms page */
+.page-content {
+  min-height: 60vh;
+  color: white;
+}
+
 /* Responsiveness */
 .sm-block {
   display: none;

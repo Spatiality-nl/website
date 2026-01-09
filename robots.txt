@@ -1,0 +1,13 @@
+# robots.txt for spatiality.nl
+
+User-agent: *
+Allow: /
+
+# Disallow private directories
+Disallow: /documents/
+
+# Crawl-delay (optional, uncomment if needed)
+# Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://spatiality.nl/sitemap.xml

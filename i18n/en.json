@@ -7,6 +7,7 @@
     "menu-timeline": "Projects",
     "menu-skills": "How can I help?",
     "menu-contact": "Contact",
+    "menu-terms": "Terms of Service",
 	"catchphrase": "Value-driven software development with a focus on GIS and Web development",
     "whoami-title": "Who am I?",
     "whoami-body": "My name is Kamiel Verhelst. I am a software developer specialized in GIS and Web development. My mission is to make our society a bit more just and fair by applying digital technologies wherever they can be of value.<br/><br/>I prefer to work on project with a clear contribution to solving a societal problem.<br/><br/>With my broad background in both social sciences and computer science, I am able to approach complex problems from different perspectives. I enjoy combining technical (programming) work with consulting and providing instruction.<br/><br/>I have a broad <a href=\"#skills\">technical skillset</a>, with a specialization in 3D geographic data and GIS web applications.",
@@ -43,5 +44,11 @@
     "skills-body": "I have expertise in the following technologies and methods:",
     "skills-list": "Python, SQL, PostgreSQL/PostGIS, APIs, ETL, GDAL, QGIS, FME, CesiumJS, VueJS, Svelte, ReactJS, PHP (Laravel), Web design, SEO, Scrum",
     "skills-contact": "Interested? Feel free to contact me",
-    "contact-button": "Send an email"
+    "contact-button": "Send an email",
+
+    "terms-page-title": "Terms of Service | Spatiality",
+    "terms-title": "Terms of Service",
+    "terms-description": "The services provided by Spatiality are subject to the NLdigital2025 terms of service.",
+    "terms-read-terms-button": "Read the NLdigital2025 terms",
+    "terms-pdf-url": "/documents/NLdigital-Terms-2025-EN.pdf"
 }

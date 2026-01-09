@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="terms-page-title">Algemene Voorwaarden | Spatiality</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Algemene voorwaarden van Spatiality - Kamiel Verhelst">
+  <meta name="robots" content="index, follow">
+  
+  <script type="importmap">
+			{
+				"imports": {
+					"three": "https://cdn.jsdelivr.net/npm/three@0.161/build/three.module.js",
+          "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161/examples/jsm/"
+        }
+			}
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/src/css/app.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+    <div class="container-fluid max-page-width">
+      <a class="navbar-brand" href="/">
+        <img src="/resources/img/logo.png" height="100" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="menu-whoami" href="/#whoami"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="menu-timeline" href="/#timeline"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="menu-skills" href="/#skills"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="menu-contact" href="/#footer"></a>
+          </li>
+        </ul>
+        <ul class="navbar-nav d-none d-lg-flex">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle flex-center-gap" href="#" id="localeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i data-feather="globe"></i>
+              <span>Language</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="localeDropdown">
+              <li><a class="dropdown-item" href="?lang=en" data-i18n="locale-en"></a></li>
+              <li><a class="dropdown-item" href="?lang=nl" data-i18n="locale-nl"></a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- Mobile language switcher -->
+        <ul id="lang-mobile" class="navbar-nav d-lg-none">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle flex-center-gap" href="#" id="localeDropdownMobile" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i data-feather="globe"></i>
+              <span>Language</span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="localeDropdownMobile">
+              <li><a class="dropdown-item" href="?lang=en" data-i18n="locale-en"></a></li>
+              <li><a class="dropdown-item" href="?lang=nl" data-i18n="locale-nl"></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+    <div class="max-page-width page-content">
+      <section class="content-section py-5">
+        <h1 data-i18n="terms-title">Algemene Voorwaarden</h1>
+        
+        <div class="terms-content mt-4">
+            <p data-i18n="terms-description">Op de geleverde diensten van Spatiality zijn de NLdigital2025 leveringsvoorwaarden van toepassing.</p>
+            <button id="termsButton" class="btn btn-primary mt-3"
+              data-i18n="terms-read-terms-button">Lees de voorwaarden</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer id="footer" class="py-3 my-4" data-bs-theme="dark">
+    <ul class="nav justify-content-center pb-3 mb-3">
+      <li class="nav-item">
+        <a class="nav-link text-muted" data-i18n="menu-whoami" href="/#whoami"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-muted" data-i18n="menu-timeline" href="/#timeline"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-muted" data-i18n="menu-skills" href="/#skills"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active text-muted" aria-current="page" data-i18n="menu-terms" href="/terms"></a>
+      </li>
+    </ul>
+    <ul class="nav justify-content-center pb-3 mb-3">
+      <li class="nav-item">
+        <a href="https://www.linkedin.com/in/kamiel-verhelst/" class="nav-link px-2 text-muted">
+          <i data-feather="linkedin" width="30" height="30"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="https://github.com/Kamieljv/" class="nav-link px-2 text-muted">
+          <i data-feather="github" width="30" height="30"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" id="email" class="nav-link px-2 text-muted flex-center-gap">
+          <i data-feather="mail" width="30" height="30"></i>
+          <span id="email-text-footer">kamiel</span>
+        </a>
+      </li>
+    </ul>
+    <ul class="nav justify-content-center pb-3 mb-3">
+      <li class="nav-item">
+        <div class="footer-info">
+          <strong>KVK:</strong>
+          <span>95519777</span>
+        </div>
+      </li>
+      <li class="nav-item">
+        <div class="footer-info">
+          <strong>BTW-ID:</strong>
+          <span>NL005158428B70</span>
+        </div>
+      </li>
+    </ul>
+  </footer>
+
+  <button id="backToTopBtn" class="back-to-top">↑</button>
+
+  <!-- Bootstrap dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- jQuery i18n -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.9/jquery.i18n.min.js"
+    integrity="sha512-EkS8Kq86l7dHt/dOBniHgtYvAScDqFw/lIPX5VCwaVKsufs0pY44I2cguqZ45QaFOGGwVd3T1nXvVJYIEjRsjA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.9/jquery.i18n.messagestore.min.js"
+    integrity="sha512-Ejnbo8F6SIU18Tj9hZyJzVbhWtbC40Fyvuyfs6InZloy043xEvICul37BxuUGZG1ia8RQky7uBOwBdLsGKDu1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+<script>
+  // icons
+  feather.replace();
+  
+  // hide email
+  const emailText = document.getElementById('email-text');
+  const emailTextFooter = document.getElementById('email-text-footer');
+  const eaddr = 'kamiel@spatiality.nl';
+  const email = document.getElementById('email');
+  
+  email.addEventListener('click', function () {
+    window.location.href = 'mailto:' + eaddr;
+  });
+  
+  // jquery i18n
+  // get locale from lang query parameter
+  const urlParams = new URLSearchParams(window.location.search);
+  $.i18n({
+    locale: urlParams.get('lang') ?? 'nl'
+  }).load({
+    'nl': '/i18n/nl.json',
+    'en': '/i18n/en.json'
+  }).done(function () {
+    $('html').i18n();
+    
+    // Set button onclick with localized PDF URL
+    const termsButton = document.getElementById('termsButton');
+    const pdfUrl = $.i18n('terms-pdf-url');
+    termsButton.onclick = function() {
+      window.open(pdfUrl, '_blank');
+    };
+  });
+</script>
+
+<script>
+  // BACK TO TOP
+  // Get the button
+  const backToTopBtn = document.getElementById("backToTopBtn");
+
+  // Show the button when scrolling down
+  window.onscroll = function () {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      backToTopBtn.style.display = "block";
+    } else {
+      backToTopBtn.style.display = "none";
+    }
+  };
+
+  // Scroll to the top when the button is clicked
+  backToTopBtn.onclick = function () {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+</script>
+
+</html>

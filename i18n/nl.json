@@ -7,6 +7,7 @@
     "menu-timeline": "Projecten",
     "menu-skills": "Hoe kan ik helpen?",
     "menu-contact": "Contact",
+    "menu-terms": "Leveringsvoorwaarden",
 	"catchphrase": "Waardegedreven softwareontwikkeling met een focus op GIS en Web development",
     "whoami-title": "Wie ben ik?",
     "whoami-body": "Mijn naam is Kamiel Verhelst. Ik ben een softwareontwikkelaar, gespecialiseerd in GIS en Web development. Mijn missie is om onze samenleving een beetje rechtvaardiger en eerlijker te maken door digitale technologieën toe te passen waar ze van waarde zijn.<br/><br/>Ik werk het liefst aan projecten die een duidelijke bijdrage leveren aan het oplossen van een maatschappelijk probleem.<br/><br/>Met mijn brede achtergrond in zowel sociale wetenschap als computer science ben ik in staat om complexe problemen vanuit verschillende perspectieven te benaderen. Ik combineer graag technisch (programmeer-)werk met advies en het geven van instructie.<br/><br/>Ik heb een brede <a href=\"#skills\">technische skillset</a>, met een specialisatie in 3D geografische data en GIS-webapplicaties.",
@@ -42,5 +43,11 @@
     "skills-body": "Ik heb expertise en ervaring in de volgende technologieën en werkwijzen:",
     "skills-list": "Python, SQL, PostgreSQL/PostGIS, APIs, ETL, GDAL, QGIS, FME, Digital Twins, CesiumJS, VueJS, Svelte, ReactJS, PHP (Laravel), Webdesign, SEO, Scrum",
     "skills-contact": "Bent u geïnteresseerd? Neem dan gerust contact met me op",
-    "contact-button": "Stuur een e-mail"
+    "contact-button": "Stuur een e-mail",
+
+    "terms-page-title": "Algemene Voorwaarden | Spatiality",
+    "terms-title": "Algemene Voorwaarden",
+    "terms-description": "Op de geleverde diensten van Spatiality zijn de NLdigital2025 leveringsvoorwaarden van toepassing.",
+    "terms-read-terms-button": "Lees de NLdigital2025 voorwaarden",
+    "terms-pdf-url": "/documents/NLdigital-Voorwaarden-2025-NL.pdf"
 }
